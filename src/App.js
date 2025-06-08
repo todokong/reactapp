@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-import { DiAtom } from "react-icons/di";
+// import Hello from './01/Hello';
+import MyClock from './02/MyClock';
+import { IoHome } from "react-icons/io5";
+// import MyDiv1 from './03/MyDiv1';
+// import MyList from './04/MyList';
+import Lotto from './05/Lotto';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className='bg-slate-500'>
-          Edit <code>src/App.js</code> and save to reload. 
-          <DiAtom />
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="flex flex-col w-full h-screen mx-auto">
+      <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-slate-200'>
+        <p>React Basic</p>
+        <p><IoHome /></p>
       </header>
+      <main className='grow w-full flex justify-center items-center overflow-y-auto'>
+        <MyClock />
+        {/* <MyDiv1 /> */}
+        {/* <MyList /> */}
+        {/* <Lotto /> */}
+      </main>
+      <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
+        Lee Gyu Hong
+      </footer>
     </div>
   );
 }

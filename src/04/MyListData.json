@@ -1,0 +1,22 @@
+[
+    {
+        "title": "HTML",
+        "imgUrl": "",
+        "content": "HTML은 웹을 이루는 가장 기초적인 구성 요소"
+    },
+    {
+        "title": "CSS",
+        "imgUrl": "",
+        "content": "CSS는 ..."
+    },
+    {
+        "title": "JavsScript",
+        "imgUrl": "",
+        "content": "웹 페이지를 위한 스크립트 언어"
+    },
+    {
+        "title": "React",
+        "imgUrl": "",
+        "content": "사용자 인터페이스를 만들기 위한 JavaScript 라이브러리"
+    }
+]
