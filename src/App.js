@@ -25,7 +25,7 @@ function App() {
         {/* <Traffic /> */}
         {/* <MyRef /> */}
         {/* <MyRefAdd /> */} 
-        <Gallery />
+        <Gallery />  
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
         Lee Gyu Hong
