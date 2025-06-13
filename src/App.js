@@ -24,7 +24,7 @@ function App() {
         {/* <Lotto /> */}
         {/* <Traffic /> */}
         {/* <MyRef /> */}
-        {/* <MyRefAdd /> */}
+        {/* <MyRefAdd /> */} 
         <Gallery />
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
